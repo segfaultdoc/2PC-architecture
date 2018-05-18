@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="filemanager-client" />
+        <module name="filemanager-server" />
+        <module name="filemanager-shared" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="filemanager-client" target="1.8" />
+      <module name="filemanager-parent" target="1.8" />
+      <module name="filemanager-server" target="1.8" />
+      <module name="filemanager-shared" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
